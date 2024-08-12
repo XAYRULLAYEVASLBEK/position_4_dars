@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+.header {
+    background: rgb(0, 0, 0);
+}
+
+.navbar_row {
+    height: 149px;
+    align-items: center;
+}
+
+.rasm {
+    align-items: center;
+    margin-top: 40px;
+}
+
+.ul {
+    display: flex;
+    gap: 41px;
+    margin-left: 263px;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.text {
+    margin-left: 100px;
+    align-items: center;
+}
+
+.positon_btn {
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    box-shadow: 16px 18px 28px 0px rgba(255, 255, 255, 0.25);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    border: none;
+    margin-top: 79px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 37px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.position {
+    background-image: url("./images/Rectangle\ 2.png");
+    max-width: 100%;
+    height: 594px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.all {
+    display: flex;
+}
+
+.box1 {
+    width: 237px;
+    height: 209px;
+    box-shadow: 0px 22px 27.8px 0px rgba(255, 249, 249, 0.25);
+    background: rgb(50, 251, 0);
+    color: rgb(255, 6, 6);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.box2 {
+    width: 237px;
+    height: 209px;
+    position: relative;
+    top: -310px;
+    left: 119px;
+    box-shadow: 0px 18px 26.5px 0px rgba(251, 0, 0, 0.25);
+    background: rgb(247, 1, 1);
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.boxes {
+    padding: 181px 87px;
+}
+
+.box3 {
+    width: 237px;
+    height: 209px;
+    box-shadow: 0px 22px 27.8px 0px rgba(255, 249, 249, 0.25);
+    background: rgb(50, 251, 0);
+    color: rgb(255, 6, 6);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.box4 {
+    width: 411px;
+    height: 209px;
+    position: relative;
+    top: -310px;
+    left: -89px;
+    border-radius: 100px;
+    box-shadow: 0px 18px 26.5px 0px rgba(251, 0, 0, 0.25);
+    background: rgb(247, 1, 1);
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.boxes2 {
+    margin-left: 171px;
+    margin-top: 180px;
+}
+
+.rel1 {
+    padding-top: 146px;
+    padding-left: 56px;
+}
+
+.abs1 {
+    align-items: center;
+    padding-left: 56px;
+    padding-top: 90px;
+}
+
+.rel2 {
+    padding: 146px 34px;
+}
+
+.abs2 {
+    padding: 84px 139px;
+}
+
+.box5 {
+    width: 237px;
+    height: 209px;
+    box-shadow: 0px 22px 27.8px 0px rgba(255, 249, 249, 0.25);
+    background: rgb(50, 251, 0);
+    color: rgb(255, 6, 6);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.box6 {
+    width: 237px;
+    height: 209px;
+    position: relative;
+    top: -310px;
+    left: -89px;
+    box-shadow: 0px 18px 26.5px 0px rgba(251, 0, 0, 0.25);
+    background: rgb(247, 1, 1);
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.rel3 {
+    padding: 146px 34px;
+}
+
+.abs3 {
+    padding: 90px 50px;
+}
+
+.boxes3 {
+    margin-top: 181px;
+    margin-left: 50px;
+}
+
+.information {
+    height: 613px;
+    background: rgb(0, 0, 0);
+}
+
+.infor_btn {
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    box-shadow: 16px 18px 28px 0px rgba(255, 255, 255, 0.25);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    border: none;
+}
+
+.infor {
+    text-align: center;
+    padding-top: 79px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 127px;
+    gap: 88px;
+    text-align: center;
+    margin-left: 37px;
+}
+
+.card1 {
+    width: 368px;
+    height: 332px;
+    background: rgb(123, 37, 37);
+}
+
+.big {
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    padding: 50px 118px;
+}
+
+.mini {
+    width: 281px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 23px;
+    margin-left: 52px;
+}
+
+.card2 {
+    width: 368px;
+    height: 332px;
+    background: rgb(123, 37, 37);
+}
+
+.card2_img {
+    padding: 37px 20px;
+}
+
+.card3 {
+    width: 368px;
+    height: 332px;
+    background: rgb(123, 37, 37);
+}
+
+.card3_img {
+    margin-left: 0 auto;
+    margin-top: -22px;
+}
+
+.header2 {
+    background: rgb(0, 0, 0);
+}
+
+.ul2 {
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    display: flex;
+    padding-left: 709px;
+    gap: 68px;
+}
+.navbar_row2{
+    height: 149px;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
